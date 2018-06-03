@@ -1,7 +1,10 @@
-body { background-color: yellow;
+body { background-image: url(Schattenfoto_ausgerichtet.JPG);
 }
 
+
+
 h1:hover {color: blue;
+          font-family: Arial;
 }
 
 li {list-style-type: none;
