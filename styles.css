@@ -1,5 +1,5 @@
 html {
-  background-color: black;
+  background-color:	#101C58;
   color: white;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: normal;
@@ -15,23 +15,29 @@ body {
   margin: 30px;}
 
 figure {
-    margin-top: 2%;}
+    margin-top: 4%;
+    margin-bottom: 1%;}
 
 h1:hover {
-  color: blue;}
+  color: #040716;}
 
 h1 {
   margin-bottom: 1%;
   font-size: 80px;
   text-align: center;
-  font-family: "Bowlby One",sans-serif;}
+  font-family: "Bowlby One",sans-serif;
+}
 
 h2 {
   margin-top: 12%;
   margin-bottom: 5%;}
 
 a:visited {
-  color: gold;
+  color: white;
+}
+
+a:link {
+  color: white;
 }
 
 li {
