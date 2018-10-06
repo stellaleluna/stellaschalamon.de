@@ -1,7 +1,7 @@
 html {
-  background-color:	#101C58;
-  color: white;
-  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color:	#ffffff;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -23,9 +23,9 @@ h1:hover {
 
 h1 {
   margin-bottom: 1%;
-  font-size: 80px;
+  font-size: 100px;
   text-align: center;
-  font-family: "Bowlby One",sans-serif;
+  font-family: "Open Sans",sans-serif;
 }
 
 h2 {
@@ -33,11 +33,11 @@ h2 {
   margin-bottom: 5%;}
 
 a:visited {
-  color: white;
+  color: #000000;
 }
 
 a:link {
-  color: white;
+  color: #000000;
 }
 
 li {
@@ -45,6 +45,13 @@ li {
   border-top: solid 1px;
   border-top-color: grey;
   padding: 22px; }
+
+p {
+  font-size: 30px;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  line-height: 150%;
+  }
 
 #works {
   margin: auto;
