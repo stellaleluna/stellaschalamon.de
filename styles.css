@@ -1,18 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Lora|Vollkorn:400,400i");
+@import url('https://fonts.googleapis.com/css?family=Lora|Vollkorn:400,400i');
 
 html {
   background-color: #ffffff;
-  color: #000000;
-  font-family: "Vollkorn", serif;
+  color: #0080bf;
+  font-family: 'Vollkorn', serif;
   font-weight: normal;
   font-style: normal;
   font-size: 20px;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.025em;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
   text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -27,17 +26,12 @@ figure {
 h1,
 h2,
 h3 {
-  font-family: "Lora", serif;
-}
-
-h1:hover {
-  color: #040716;
+  font-family: 'Lora', serif;
 }
 
 h1 {
   margin-bottom: 1%;
   font-size: 5rem;
-  text-align: center;
 }
 
 h2 {
@@ -52,11 +46,8 @@ h3 {
   font-size: 1.8rem;
 }
 
-a:visited {
-  color: #000000;
-}
-
-a:link {
+a:visited,
+a {
   color: #000000;
 }
 
@@ -67,17 +58,34 @@ li {
 
 p {
   font-size: 30px;
-  margin-left: 15rem;
-  margin-right: 15rem;
   line-height: 150%;
+  max-width: 50rem;
+  margin-inline: auto;
+  color: #856945;
 }
 
 #landing {
   height: 60vh;
+  color: #0080bf;
+}
+
+#landing a:link,
+#landing a:visited {
+  color: #0080bf;
+}
+
+#works {
+  color: #856945;
+}
+
+#works a:link,
+#works a:visited {
+  color: #856945;
 }
 
 #works li {
   margin-bottom: 3rem;
+  text-align: left;
 }
 
 #works p {
@@ -87,9 +95,5 @@ p {
 
 #works > span {
   font-size: 1rem;
-  font-family: "Lora", serif;
-}
-
-#article-category {
-  margin-top: 4rem;
+  font-family: 'Lora', serif;
 }
